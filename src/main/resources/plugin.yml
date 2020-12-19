@@ -1,0 +1,19 @@
+name: CoordCalc
+main: me.arulsamy.CoordCalc.CoordCalc
+version: 1.0
+
+commands:
+  coords:
+    description: Display overworld or nether coords
+    usage: /<command>
+    permission: CoordCalc.coords
+
+  toNether:
+    description: Convert coordinates to nether
+    usage: /<command> <X> <Y> <Z>
+    permission: CoordCalc.toNether
+
+  toOverworld:
+    description: Convert coordinates to overworld
+    usage: /command <X> <Y> <Z>
+    permission: CoordCalc.toOverworld
