@@ -42,6 +42,7 @@ public class CommandToNether implements CommandExecutor {
             return true;
         }
 
+        sender.sendMessage("You must be a player to use this command!");
         return false;
     }
 }

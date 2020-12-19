@@ -8,7 +8,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CommandToOverworld implements CommandExecutor {
+public final class CommandToOverworld implements CommandExecutor {
 
     public void displayUsage(Player player) {
         player.spigot().sendMessage(new ComponentBuilder("Usage: /tooverworld <X> <Y> <Z>").color(ChatColor.RED).create());
@@ -42,6 +42,7 @@ public class CommandToOverworld implements CommandExecutor {
             return true;
         }
 
+        sender.sendMessage("You must be a player to use this command!");
         return false;
     }
 }
