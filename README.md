@@ -12,11 +12,11 @@ A simple plugin to convert coordinates without leaving minecraft.
 
 ### List of commands
 
-| Command | Arguments| Description |
-|:------ | :--- |:----------|
-| /coords | None| Get the player's current coordinates in all dimensions|
-| /toNether | x y z| Convert provided values to nether coordinates assuming they are from the overworld|
-| /toOverworld | x y z| Convert provided values to overworld coordinates assuming they are from the nether|
+| Command | Arguments| Description | Permissions |
+|:------ | :--- |:----------| :---- |
+| /coords | None| Get the player's current coordinates in all dimensions| CoordCalc.coords|
+| /toNether | x y z| Convert provided values to nether coordinates assuming they are from the overworld| CoordCalc.toNether|
+| /toOverworld | x y z| Convert provided values to overworld coordinates assuming they are from the nether| CoordCalc.toOverworld|
 
 ### Example Usage
 
